@@ -15,7 +15,8 @@ var firmware_req = {
 			md5: '4c6554242eb86cc7424001a8f932b164',
 			url: 'http://7xt5k7.com1.z0.glb.clouddn.com/anzhuoshichang_16791539.apk',
 			info: '1.new remote-ir supported\n2.test program improved', 
-			version: "2016110311"
+			version: "2016110311",
+			type: 1,
 		},
 		other: "",
 	},
