@@ -20,11 +20,12 @@ app.post('/process_post', urlencodedParser, function(req, res) {
     first_name: req.body.first_name,
     last_name: req.body.last_name
   };
+  console.log(__dirname);
   console.log(response);
   res.end(JSON.stringify(response));
 })
 
-var server = app.listen(8081, function() {
+var server = app.listen(9002, function() {
 
   var host = server.address().address
   var port = server.address().port
